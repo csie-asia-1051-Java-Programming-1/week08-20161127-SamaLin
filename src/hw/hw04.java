@@ -14,18 +14,18 @@ public class hw04 {
 		int cach=0;
 		int caca[]=new int [4];
 		for(int k=0;k<4;k++){
-			caca[3-k]=(a/(int)Math.pow(10, k))%10;
+			caca[3-k]=(a/(int)Math.pow(10, k))%10;//抓4數字
 			}
-		String led[][]={
+		String led[][]={//存取輸出資料
 				
-				{"*****",
-				 "*   *",
+				{"*****",//led[0][0]
+				 "*   *",//led[0][1]
 				 "*   *",
 				 "*   *",
 				 "*****"},
 				 
-				 {"    *",
-				  "    *",
+				 {"    *",//led[1][0]
+				  "    *",//led[1][1]
 				  "    *",
 				  "    *",
 				  "    *"},
@@ -82,11 +82,11 @@ public class hw04 {
 //		System.out.println(led[0][1]);
 //		System.out.println(led[1][0]);
 //		for(int k=0;k<4;k++){
-			for(int i=0;i<5;i++){
-				for(int j=0;j<4;j++){
+			for(int i=0;i<5;i++){//分五行輸出
+				for(int j=0;j<4;j++){//一次輸出其中一數的5分之一
 				System.out.print(led[caca[j]][i]+" ");
 				}
-				System.out.println();
+				System.out.println();//換行
 			}
 //		}
 	}
