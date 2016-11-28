@@ -4,7 +4,7 @@ package hw;
  * Date: 2016/11/21
  * Author: 105021058 蕭懋霖
  */
-
+import java.util.Scanner;
 public class hw04 {
 
 	public static void main(String[] args) {
@@ -40,11 +40,11 @@ public class hw04 {
 				  "    *",
 				  "*****",
 				  "    *",
-			          "*****"},
+			      "*****"},
 			      
 				 {"*   *",
-			          "*   *",
-			          "*****",
+			      "*   *",
+			      "*****",
 				  "    *",
 				  "    *"},
 				  
